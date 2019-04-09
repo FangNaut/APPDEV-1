@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void barChart(int a[])
 {
 	int i, j;	//counter
@@ -9,7 +8,7 @@ void barChart(int a[])
 #ifdef UNICODE						// conditionla compiling
 			printf("%s", "\u2590");
 #else
-			printf("%c", ' ');
+			printf("%c", '*');
 #endif
 		}
 	}

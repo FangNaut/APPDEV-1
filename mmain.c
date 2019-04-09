@@ -14,7 +14,7 @@ int main(){
 		if (ret == SIGINT)break; 
 		f = fopen("test.wav", "r");		// open the file for read only
 		clearScreen();
-		setColors(YELLOW, bg(BLUE));
+		setColors(YELLOW, bg(BLACK));
 		if(f == NULL){
 			printf("cannot open the wav file\n");
 			return 1;
